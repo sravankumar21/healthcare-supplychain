@@ -250,13 +250,13 @@ function DispatchOrders() {
 // Distributor Dashboard component
 function DistributorDashboard() {
   return (
-    <Container maxWidth="lg" sx={{ marginTop: 4 }}>
-      <Typography variant="h3" sx={{ marginBottom: 10 }}>
+    <Container maxWidth="lg" sx={{ marginTop: 12 }}>
+      <Typography variant="h4" sx={{ marginBottom: 4 }}>
         Distributor Dashboard
       </Typography>
       <Grid container spacing={4}>
         <Grid item xs={12} sm={6} md={3}>
-          <Paper sx={{ padding: 2, textAlign: "center" }}>
+          <Paper sx={{ padding: 2, textAlign: "center", height: "120px" }}>
             <Typography variant="h5">Place Orders with Manufacturers</Typography>
             <Button
               variant="contained"
@@ -269,7 +269,7 @@ function DistributorDashboard() {
           </Paper>
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
-          <Paper sx={{ padding: 2, textAlign: "center" }}>
+          <Paper sx={{ padding: 2, textAlign: "center", height: "120px" }}>
             <Typography variant="h5">Manage Inventory</Typography>
             <Button
               variant="contained"
@@ -282,7 +282,7 @@ function DistributorDashboard() {
           </Paper>
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
-          <Paper sx={{ padding: 2, textAlign: "center" }}>
+          <Paper sx={{ padding: 2, textAlign: "center", height: "120px" }}>
             <Typography variant="h5">Track and Dispatch Orders</Typography>
             <Button
               variant="contained"
