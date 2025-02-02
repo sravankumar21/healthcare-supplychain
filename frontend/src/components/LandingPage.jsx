@@ -11,7 +11,7 @@ function LandingPage() {
         disableGutters 
         sx={{ 
           position: "relative", 
-          width: "98vw", 
+          width: "99vw", 
           height: "70vh",  // Ensured video height remains unchanged
           overflow: "hidden", 
           display: "flex", 
@@ -25,7 +25,7 @@ function LandingPage() {
           loop 
           muted 
           style={{ 
-            width: "100vw", 
+            width: "99vw", 
             height: "100%", 
             objectFit: "cover", 
             position: "absolute", 
