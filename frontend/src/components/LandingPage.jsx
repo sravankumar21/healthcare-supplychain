@@ -97,6 +97,30 @@ function LandingPage() {
           />
         </Box>
       </Box>
+
+      {/* Footer Section */}
+      <Box 
+        sx={{ 
+          width: "100vw", 
+          backgroundColor: "#1976d2", 
+          color: "#fff", 
+          padding: "2vw", 
+          display: "flex", 
+          justifyContent: "center", 
+          alignItems: "center", 
+          flexDirection: "column" 
+        }}
+      >
+        <Typography variant="h6" sx={{ marginBottom: "1vw" }}>
+          PharmaCare © 2025 | All Rights Reserved
+        </Typography>
+        <Typography variant="body2" sx={{ fontSize: "1rem" }}>
+          For more information, visit our{" "}
+          <a href="https://www.pharmacare.com" style={{ color: "#fff", textDecoration: "underline" }}>
+            website
+          </a>
+        </Typography>
+      </Box>
     </>
   );
 }

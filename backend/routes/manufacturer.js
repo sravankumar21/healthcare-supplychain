@@ -1,3 +1,5 @@
+// In routes/manufacturer.js
+
 const express = require('express');
 const router = express.Router();
 const manufacturerController = require('../controllers/manufacturerController');
@@ -13,5 +15,13 @@ router.get('/inventory', manufacturerController.trackInventory);
 
 // Manage production
 router.put('/production/:id', manufacturerController.manageProduction);
+
+// Add new product
+router.post('/product', manufacturerController.addProduct);
+// Function to fetch all dealers (users with role 'distributor')
+router.get('/dealers', manufacturerController.fetchDealers);
+
+router.post('/order', manufacturerController.placeOrder);
+
 
 module.exports = router;
